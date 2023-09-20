@@ -58,6 +58,18 @@ a {
     font-weight: 700;
 }
 
+/* Buttons */
+
+button {
+    padding: 8px 24px;
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+.outlined {
+    background-color: transparent;
+}
+
 /* Directions */
 .column {
     display: flex;
@@ -70,6 +82,25 @@ a {
 }
 
 /* Sections */
+
+.release {
+    position: relative;
+    display:block;
+    width: 100%;
+    height: 768px;
+    outline: none;
+    background-image:url(../images/Release.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .release_button {
+        position: absolute;
+        left: 64px;
+        bottom: 34px;
+        border-color: #fff;
+        color: #fff;
+    }
+}
 
 footer {
     height: 286px;
